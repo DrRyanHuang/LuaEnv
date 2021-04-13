@@ -7,7 +7,7 @@
 
 ### Windows
 
-可以从 [http://joedf.ahkscript.org/LuaBuilds/](http://joedf.ahkscript.org/LuaBuilds/) 下载已经编译好的 Lua ，解压后，将解压目录添加到环境变量中去，若只是临时使用，在命令行使用 `set path` 指令**(只在当前终端有效)**
+可以从 [http://joedf.ahkscript.org/LuaBuilds/](http://joedf.ahkscript.org/LuaBuilds/) 下载已经编译好的 Lua ，解压后，将解压目录添加到环境变量中去，若只是临时使用，在命令行使用 `set path` 指令 (**只在当前终端有效**)
 
 ```shell
 set path                           # 查看环境变量
