@@ -27,13 +27,14 @@ P.S. `srlua` 用于生成可执行 `lua` 脚本
 
 ### Linux
 
-根据官方[指南](https://www.lua.org/download.html)
+根据官方 [指南](https://www.lua.org/download.html) 先编译，最后一步的安装
 
 ```shell
 curl -R -O http://www.lua.org/ftp/lua-5.4.3.tar.gz
 tar zxf lua-5.4.3.tar.gz
 cd lua-5.4.3
 make all test
+make install # 可能需要 sudo 权限
 ```
 
 在本仓库`linux`目录下，提供了`lua-5.4.3.tar.gz` 文件，可直接使用
