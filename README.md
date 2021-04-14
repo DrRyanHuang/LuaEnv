@@ -1,7 +1,12 @@
 # みなさん、こんにちは！
 
-
 该环境用于我自己的 Lua 环境搭建，感兴趣的老铁也可以 fork 后 build 一下
+
+
+
+Lua 官网：[https://www.lua.org/](https://www.lua.org/)
+
+
 
 分为 `windows` 和 `linux`
 
@@ -16,10 +21,20 @@ set path = X:\some_path            # 修改环境变量(用不着)
 set path = X:\some_path;%path%     # 添加环境变量(就这个)
 ```
 
-在本仓库，我提供了 `srlua-5.4.3_Win64_bin.zip` 和 `lua-5.4.3_Win64_bin.zip`，可`git`下来直接用
+在本仓库`windows`目录下，提供了 `srlua-5.4.3_Win64_bin.zip` 和 `lua-5.4.3_Win64_bin.zip`，可`git`下来直接用
 
 P.S. `srlua` 用于生成可执行 `lua` 脚本
 
 ### Linux
 
-过俩天用到了再写
+根据官方[指南](https://www.lua.org/download.html)
+
+```shell
+curl -R -O http://www.lua.org/ftp/lua-5.4.3.tar.gz
+tar zxf lua-5.4.3.tar.gz
+cd lua-5.4.3
+make all test
+```
+
+在本仓库`linux`目录下，提供了`lua-5.4.3.tar.gz` 文件，可直接使用
+
